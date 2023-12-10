@@ -61,7 +61,7 @@ Dosen Pengampu : Wahyu Hadikristanto, S.Kom., M.Kom.
 - Ketika login kita harus registrasi terlebih dahulu
 
 
-### registrasi.php
+### 2. registrasi.php
 
     <!DOCTYPE html>
     <html>
@@ -102,7 +102,7 @@ Dosen Pengampu : Wahyu Hadikristanto, S.Kom., M.Kom.
 ![image](https://github.com/adeliadhea06/Aplikasi_absensi/assets/115794875/599450df-b5e7-4e6f-b36d-5447aa39acb4)
 
 
-### proses_simpan.php
+### 3. proses_simpan.php
 
     <?php
     include "koneksi.php";
@@ -134,7 +134,7 @@ Dosen Pengampu : Wahyu Hadikristanto, S.Kom., M.Kom.
     ?>
 
 
-### koneksi.php
+### 4. koneksi.php
 
 Koneksi ini bertujuan untuk menghubungkan kode dengan __database__
 
@@ -145,7 +145,7 @@ Koneksi ini bertujuan untuk menghubungkan kode dengan __database__
     ?>
 
 
-### session.php
+### 5. session.php
 
     <?php
     session_start();
@@ -155,7 +155,7 @@ Koneksi ini bertujuan untuk menghubungkan kode dengan __database__
     ?>
 
 
-### home.php
+### 6. home.php
 
     <?php
     include "session.php";
